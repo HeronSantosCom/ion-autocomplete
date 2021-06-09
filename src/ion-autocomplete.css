@@ -7,12 +7,16 @@
     z-index: 20;
     display: none;
     margin: auto;
-    pointer-events:auto;
 }
 
 input.ion-autocomplete[readonly] {
     background-color: transparent;
     cursor: text;
+}
+
+.ion-autocomplete-loading-icon .spinner svg {
+    width: 75px;
+    height: 75px;
 }
 
 .ion-autocomplete-loading-icon {
