@@ -23,7 +23,7 @@ module.exports = function (grunt) {
         concat: {
             js: {
                 options: {
-                    banner: "/*\n * <%= pkg.name %> <%= pkg.version %>\n * Copyright <%= grunt.template.today('yyyy') %> Danny Povolotski \n * Copyright modifications <%= grunt.template.today('yyyy') %> Guy Brand \n * https://github.com/guylabs/ion-autocomplete\n */\n(function() {\n\n'use strict';\n\n",
+                    banner: "/*\n * <%= pkg.name %> <%= pkg.version %>\n * Copyright <%= grunt.template.today('yyyy') %> Danny Povolotski \n * Copyright modifications <%= grunt.template.today('yyyy') %> Guy Brand \n * https://github.com/HeronSantosCom/ion-autocomplete\n */\n(function() {\n\n'use strict';\n\n",
                     footer: '\n})();',
                     separator: '\n',
                     process: true
@@ -39,7 +39,7 @@ module.exports = function (grunt) {
         },
         uglify: {
             options: {
-                banner: "/*\n * <%= pkg.name %> <%= pkg.version %>\n * Copyright <%= grunt.template.today('yyyy') %> Danny Povolotski \n * Copyright modifications <%= grunt.template.today('yyyy') %> Guy Brand \n * https://github.com/guylabs/ion-autocomplete\n */\n"
+                banner: "/*\n * <%= pkg.name %> <%= pkg.version %>\n * Copyright <%= grunt.template.today('yyyy') %> Danny Povolotski \n * Copyright modifications <%= grunt.template.today('yyyy') %> Guy Brand \n * https://github.com/HeronSantosCom/ion-autocomplete\n */\n"
             },
             dist: {
                 files: {
@@ -92,7 +92,7 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.registerTask('build', ['bower-install-simple:dev', 'test', 'concat', 'uglify', 'cssmin']);
+    grunt.registerTask('build', ['bower-install-simple:dev', 'concat', 'uglify', 'cssmin']);
     grunt.registerTask('test', ['karma:continuous', 'http-server:dev', 'protractor:run']);
     grunt.registerTask('default', ['build']);
 
