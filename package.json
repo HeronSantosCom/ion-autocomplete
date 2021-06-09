@@ -1,6 +1,6 @@
 {
   "name": "ion-autocomplete",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "A configurable Ionic directive for an autocomplete dropdown",
   "keywords": [
     "AngularJS",
@@ -9,8 +9,8 @@
     "ion",
     "autocomplete"
   ],
-  "homepage": "https://github.com/guylabs/ion-autocomplete",
-  "bugs": "https://github.com/guylabs/ion-autocomplete/issues",
+  "homepage": "https://github.com/HeronSantosCom/ion-autocomplete",
+  "bugs": "https://github.com/HeronSantosCom/ion-autocomplete/issues",
   "author": {
     "name": "Danny Povolotski",
     "email": "dannypovolotski@gmail.com",
@@ -25,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/guylabs/ion-autocomplete.git"
+    "url": "https://github.com/HeronSantosCom/ion-autocomplete.git"
   },
   "devDependencies": {
     "bower": "~1.8.0",
@@ -53,7 +53,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/guylabs/ion-autocomplete/blob/master/LICENSE"
+      "url": "https://github.com/HeronSantosCom/ion-autocomplete/blob/master/LICENSE"
     }
   ],
   "main": "dist/ion-autocomplete.js",
