@@ -1,5 +1,5 @@
 /*
- * ion-autocomplete 0.4.4
+ * ion-autocomplete 0.4.5
  * Copyright 2021 Danny Povolotski 
  * Copyright modifications 2021 Guy Brand 
  * https://github.com/HeronSantosCom/ion-autocomplete
