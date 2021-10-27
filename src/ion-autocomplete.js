@@ -44,7 +44,6 @@ angular.module('ion-autocomplete', []).directive('ionAutocomplete', [
                 });
 
                 // set the default values of the passed in attributes
-                console.log('$attrs.show', angular.copy($attrs.show));
                 this.firstStart = true;
                 this.autoShow = valueOrDefault($attrs.show, "false");
                 this.maxSelectedItems = valueOrDefault($attrs.maxSelectedItems, undefined);
@@ -277,8 +276,6 @@ angular.module('ion-autocomplete', []).directive('ionAutocomplete', [
                             }
                         }
                         // this.firstStart = true;
-                        console.log('ionAutocompleteController.firstStart', angular.copy(ionAutocompleteController.firstStart));
-                        console.log('ionAutocompleteController.autoShow', angular.copy(ionAutocompleteController.autoShow));
                         if (!ionAutocompleteController.firstStart || (ionAutocompleteController.firstStart && ionAutocompleteController.autoShow === "true")) {
                             ionAutocompleteController.fetchSearchQuery(query, false);
                         } else {
@@ -340,10 +337,6 @@ angular.module('ion-autocomplete', []).directive('ionAutocomplete', [
 
                                 // force the collection repeat to redraw itself as there were issues when the first items were added
                                 $ionicScrollDelegate.resize();
-
-                                if (query) {
-                                    document.activeElement.blur();
-                                }
                             }, function (error) {
                                 // reject the error because we do not handle the error here
                                 return $q.reject(error);
