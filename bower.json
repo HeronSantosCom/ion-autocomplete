@@ -29,7 +29,8 @@
   ],
   "authors": [
     "Danny Povolotski <dannypovolotski@gmail.com>",
-    "Guy Brand <admin@guylabs.org>"
+    "Guy Brand <admin@guylabs.org>",
+    "Heron Santos <heron@illimitar.com.br>"
   ],
   "resolutions": {
     "ionic": "1.3.5",

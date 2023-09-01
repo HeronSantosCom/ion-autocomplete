@@ -1,6 +1,6 @@
 {
   "name": "ion-autocomplete",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "description": "A configurable Ionic directive for an autocomplete dropdown",
   "keywords": [
     "AngularJS",
@@ -21,6 +21,11 @@
       "name": "Guy Brand",
       "email": "admin@guylabs.org",
       "url": "http://guylabs.ch"
+    },
+    {
+      "name": "Heron Santos",
+      "email": "heron@illimitar.com.br",
+      "url": "http://www.illimitar.com.br"
     }
   ],
   "repository": {
