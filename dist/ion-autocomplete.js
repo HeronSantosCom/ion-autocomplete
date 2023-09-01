@@ -1,5 +1,5 @@
 /*
- * ion-autocomplete 0.4.7
+ * ion-autocomplete 0.4.8
  * Copyright 2023 Danny Povolotski 
  * Copyright modifications 2023 Heron Santos 
  * https://github.com/HeronSantosCom/ion-autocomplete
@@ -113,6 +113,7 @@ angular.module('ion-autocomplete', []).directive('ionAutocomplete', [
                     '      <ion-item ng-if="viewModel.isArray(viewModel.selectedItems)" ng-repeat="selectedItem in viewModel.selectedItems track by $index" class="item-icon-left item-icon-right item-text-wrap">',
                     '         <i class="icon ion-checkmark"></i>',
                     // '         {{viewModel.getItemValue(selectedItem, viewModel.itemValueKey, "id")}} - {{viewModel.getItemValue(selectedItem, viewModel.itemViewValueKey)}}',
+                    '         {{viewModel.getItemValue(selectedItem, viewModel.itemViewValueKey)}}',
                     '         <i class="icon ion-trash-a" style="cursor:pointer" ng-click="viewModel.removeItem($index)"></i>',
                     '      </ion-item>',
 
