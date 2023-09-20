@@ -1,5 +1,11 @@
 # Release notes of ion-autocomplete
 
+## Version 0.4.9
+
+* Tag: [0.4.9](https://github.com/guylabs/ion-autocomplete/tree/v0.4.9)
+* Release: [ion-autocomplete-0.4.9.zip](https://github.com/guylabs/ion-autocomplete/archive/v0.4.9.zip)
+* Corrigido erro relacionado a diretiva `maxSelectedItems`: [Error: $compile:nonassign / Non-Assignable Expression](https://code.angularjs.org/1.5.3/docs/error/$compile/nonassign?p0=150&p1=maxSelectedItems&p2=ionAutocomplete)
+
 ## Version 0.4.0
 
 * Tag: [0.4.0](https://github.com/guylabs/ion-autocomplete/tree/v0.4.0)

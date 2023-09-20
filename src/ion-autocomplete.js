@@ -4,12 +4,13 @@ angular.module('ion-autocomplete', []).directive('ionAutocomplete', [
         return {
             require: ['ngModel', 'ionAutocomplete'],
             restrict: 'A',
-            scope: {},
+            scope: {
+                maxSelectedItems: '=maxSelectedItems',
+            },
             bindToController: {
                 ngModel: '=',
                 externalModel: '=',
                 templateData: '=',
-                maxSelectedItems: '=',
                 itemsMethod: '&',
                 itemsClickedMethod: '&',
                 itemsRemovedMethod: '&',
