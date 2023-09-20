@@ -1,5 +1,5 @@
 /*
- * ion-autocomplete 0.4.8
+ * ion-autocomplete 0.4.9
  * Copyright 2023 Danny Povolotski 
  * Copyright modifications 2023 Heron Santos 
  * https://github.com/HeronSantosCom/ion-autocomplete
@@ -14,12 +14,13 @@ angular.module('ion-autocomplete', []).directive('ionAutocomplete', [
         return {
             require: ['ngModel', 'ionAutocomplete'],
             restrict: 'A',
-            scope: {},
+            scope: {
+                maxSelectedItems: '=maxSelectedItems',
+            },
             bindToController: {
                 ngModel: '=',
                 externalModel: '=',
                 templateData: '=',
-                maxSelectedItems: '=',
                 itemsMethod: '&',
                 itemsClickedMethod: '&',
                 itemsRemovedMethod: '&',
